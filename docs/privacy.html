@@ -41,11 +41,14 @@
 
     <p>Die aufgenommenen Fotos werden ausschließlich <strong>lokal auf Ihrem Gerät</strong> gespeichert 
        und verarbeitet. Eine Übertragung an den Entwickler oder an Dritte findet nicht statt.</p>
-
+    
     <p>Nach der Erkennung der relevanten Daten können Sie entscheiden, ob das Foto 
        <strong>gespeichert</strong> werden soll (z.&nbsp;B. als Belegnachweis) oder ob es 
        <strong>sofort verworfen</strong> wird. Bereits gespeicherte Bilder können 
        ebenfalls jederzeit im Nachhinein wieder <strong>gelöscht</strong> werden.</p>
+    
+    <p><strong>Export von Belegfotos:</strong> Beim Export können – falls von Ihnen ausgewählt – 
+       zugehörige Belegfotos gemeinsam mit den Daten lokal gesichert oder über das Share Sheet geteilt werden.</p>
 
     <p><strong>Fotos (Auswahl für Feedback):</strong> Für das Anhängen von Screenshots im Feedback nutzt die App
        den iOS-<em>Systemauswahldialog</em> (Photos Picker). Dadurch erhält die App <strong>keinen allgemeinen Zugriff</strong>
@@ -53,7 +56,33 @@
   </section>
 
   <section>
-    <h2>4. Feedback & Support (Screenshots, Systeminfos & Log)</h2>
+    <h2>4. Datensicherung, Export & Import (JSON)</h2>
+    <p>Die App bietet eine manuelle Datensicherung als <strong>JSON-Datei</strong> sowie den Import solcher Dateien an.
+       Der Export erfolgt <strong>ausschließlich lokal</strong> über das iOS-Teilen-Menü (Share Sheet); 
+       Sie wählen selbst Ziel/Empfänger (z.&nbsp;B. Dateien-App, Mail). 
+       Eine Übermittlung an den Entwickler findet <strong>nicht</strong> statt.</p>
+
+    <p><strong>Inhalt der exportierten Datei:</strong> Kategorien (Name, Icon-Token, Flags), 
+       Buchungen/Einträge (Betrag, Datum, Kategorie, Freitext <code>entrydescription</code>, Wiederholungsangaben), 
+       optionale Verknüpfungen zu <strong>Belegfotos</strong> (nur, wenn Sie diese in der App hinzugefügt haben) 
+       sowie technische IDs (UUIDs). Die Datei kann <strong>personenbezogene und finanzielle Angaben</strong> enthalten.</p>
+
+    <p><strong>Belegfotos:</strong> Sofern exportiert, werden Fotos ausschließlich lokal verarbeitet und nur auf Ihre 
+       ausdrückliche Aktion hin mitgesichert (z.&nbsp;B. beim Export in einen Ordner der Dateien-App) 
+       oder über von Ihnen gewählte Dienste geteilt. Bitte beachten Sie, dass die weitere Verarbeitung dann 
+       den Bedingungen des jeweiligen Dienstes (z.&nbsp;B. Ihres E-Mail-Anbieters) unterliegt.</p>
+
+    <p><strong>Import:</strong> Beim Import einer JSON-Datei werden die darin enthaltenen Daten in die App übernommen. 
+       Der Import ist <strong>nutzerinitiiert</strong> und erfolgt lokal. Abhängig von der Datei kann es zu 
+       <strong>Ergänzungen oder Überschreibungen</strong> bestehender Einträge kommen. 
+       Wir empfehlen, vor einem Import eine zusätzliche Sicherung anzulegen.</p>
+
+    <p><strong>Sicherheit & Verantwortung:</strong> Bitte schützen Sie exportierte Dateien (z.&nbsp;B. durch Speicherung 
+       in einem geschützten Ordner oder durch Gerätesperre). Der Entwickler hat keinen Zugriff auf Ihre Export-Dateien.</p>
+  </section>
+
+  <section>
+    <h2>5. Feedback & Support (Screenshots, Systeminfos & Log)</h2>
     <p>In der App können Sie unter „Feedback senden“ den Support kontaktieren. Dabei gilt:</p>
     <ul>
       <li><strong>Nachrichtentext:</strong> Freitext, den Sie selbst eingeben.</li>
@@ -83,7 +112,7 @@
   </section>
 
   <section>
-    <h2>5. TestFlight</h2>
+    <h2>6. TestFlight</h2>
     <p>Bei Nutzung von TestFlight können von Apple zu Testzwecken
        <em>anonymisierte Nutzungs- und Absturzdaten</em> erhoben werden. Diese Daten werden über
        Apples Systeme verarbeitet; <strong>Verantwortlicher ist Apple</strong>.
@@ -91,7 +120,7 @@
   </section>
 
   <section>
-    <h2>6. Ihre Rechte</h2>
+    <h2>7. Ihre Rechte</h2>
     <p>Sie haben Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung und Widerspruch nach geltendem Recht (z. B. DSGVO).
        Da die App keine personenbezogenen Daten an den Entwickler überträgt, beziehen sich Anfragen in der Regel auf
        lokal gespeicherte Daten auf Ihrem Gerät. Anfragen zur Datenschutz-Auskunft richten Sie bitte an:
@@ -99,10 +128,10 @@
   </section>
 
   <section>
-    <h2>7. Änderungen</h2>
+    <h2>8. Änderungen</h2>
     <p>Diese Erklärung kann aktualisiert werden; die jeweils aktuelle Fassung wird unter dieser URL bereitgestellt.</p>
   </section>
 
-  <p><small>Stand: 2025-09-10</small></p>
+  <p><small>Stand: 2025-09-11</small></p>
 </body>
 </html>
